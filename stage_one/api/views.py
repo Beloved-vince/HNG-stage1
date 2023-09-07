@@ -10,8 +10,8 @@ def api_endpoint(request):
     track = request.GET.get('track', '')
     current_day = datetime.now().strftime('%A')
     utc_time = datetime.now(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext",
-    github_repo_url = "https://github.com/username/repo",
+    github_file_url = "https://github.com/Beloved-vince/HNG-stage1/blob/main/stage_one/api/views.py",
+    github_repo_url = "https://github.com/Beloved-vince/HNG-stage1",
     status_code =  200
     
     response_data = {
